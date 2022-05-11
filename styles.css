@@ -1,0 +1,38 @@
+body{
+    background-color: #0081a7;
+}
+.large{
+    background-color: coral;
+}
+.small{
+    background-color: yellow;
+}
+.medium{
+    background-color: yellowgreen;
+}
+
+.pizza{
+    border: 1px solid;
+    padding: 1em;
+    margin: 2em;
+    border-radius: 1em;
+}
+
+.footer{
+    background-color: turquoise;
+    border: 1px solid;
+    padding: 1em;
+    margin: 2em;
+}
+
+@media (min-width:768px) {
+    .pizzas{
+        display: flex;
+    }
+    .pizza{
+        border: 1px solid;
+        padding: 1em;
+        margin: 2em;
+        border-radius: 1em;
+    }   
+}
